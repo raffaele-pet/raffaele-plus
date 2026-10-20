@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b13">
+  <meta name="description" content="Le repository di raffaele-pet, tutte da esplorare. AI, immagini, video e strumenti creativi in un catalogo ispirato allo streaming.">
+  <title>Raffaele+ | Un mondo di progetti</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./data/catalog.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al catalogo</a>
+  <header class="header">
+    <a class="wordmark" href="#home" aria-label="Raffaele+, home">Raffaele<span>+</span><svg viewBox="0 0 120 40" aria-hidden="true"><path d="M5 33 Q55 -12 110 22"/></svg></a>
+    <nav aria-label="Navigazione principale">
+      <a href="#home" data-nav="home" aria-label="Home"><i data-icon="home"></i><span>Home</span></a>
+      <a href="#search" data-nav="search" aria-label="Cerca"><i data-icon="search"></i><span>Cerca</span></a>
+      <a href="#watchlist" data-nav="watchlist" aria-label="La mia lista"><i data-icon="plus"></i><span>La mia lista</span></a>
+      <a href="#originals" data-nav="originals" aria-label="Originali"><i data-icon="star"></i><span>Originali</span></a>
+      <a href="#all" data-nav="all" aria-label="Progetti"><i data-icon="grid"></i><span>Progetti</span></a>
+      <a href="#collections" data-nav="collections" aria-label="Collezioni"><i data-icon="layers"></i><span>Collezioni</span></a>
+    </nav>
+    <div class="profile-wrap">
+      <button class="profile" aria-label="Menu di Raffaele" aria-expanded="false" aria-controls="profile-menu"><span>Raffaele</span><span class="avatar">R<span>+</span></span></button>
+      <div id="profile-menu" class="profile-menu" hidden><strong>raffaele-pet</strong><span>Un mondo di progetti.</span><a href="https://github.com/raffaele-pet" target="_blank" rel="noopener noreferrer">Il mio profilo GitHub ↗</a><button id="clear-history">Cancella progetti visitati</button></div>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer><a class="wordmark footer-logo" href="#home">Raffaele<span>+</span></a><div><a href="https://github.com/raffaele-pet" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#all">Tutti i progetti</a><a href="#collections">Esplora le collezioni</a></div><p>Progetti, esperimenti e nuove possibilità. Tutto in un unico posto.</p><small>Portfolio personale di raffaele-pet · Interfaccia ispirata a Disney+. Nessuna affiliazione con Disney.</small></footer>
+  <dialog id="details" aria-labelledby="detail-title"></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Attiva JavaScript per esplorare il catalogo oppure <a href="https://github.com/raffaele-pet?tab=repositories">apri le repository su GitHub</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "raffaele-plus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Un catalogo delle repository di raffaele-pet ispirato a Disney+",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "update-catalog": "node scripts/update-catalog.mjs",
+    "check": "node --check app.js && node --check data/catalog.js"
+  },
+  "engines": {"node": ">=22"}
+}
